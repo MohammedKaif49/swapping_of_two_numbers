@@ -1,0 +1,12 @@
+# swapping_of_two_numbers
+Write a C program to swap two numbers without using third variable.
+#include<stdio.h>
+main()
+{
+	int a =10 , b=20;
+	printf("Two numbers before swapping are : a = %d , b = %d",a ,b);
+	a = a+b;
+	b = a-b;
+	a = a-b;
+	printf("\nTwo numbers after swapping are : a = %d , b = %d",a ,b);
+}
